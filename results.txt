@@ -1,0 +1,164 @@
+#all_pairwise_approach("svm")
+- LASSO
+	aml 0.842857142857
+	cALL 0.833333333333
+	CLL 0.855555555556
+	mds 0.904761904762
+	214
+	36
+	0.856
+- RFE
+	aml 0.742857142857
+	cALL 0.875
+	CLL 0.911111111111
+	mds 0.785714285714
+	209
+	41
+	0.836
+- VO
+	aml 0.785714285714
+	cALL 0.8125
+	CLL 0.922222222222
+	mds 0.928571428571
+	216
+	34
+	0.864
+
+#all_pairwise_approach("logistic_regression") 
+- LASSO
+	aml 0.842857142857
+	cALL 0.833333333333
+	CLL 0.866666666667
+	mds 0.928571428571
+	216
+	34
+	0.864
+- RFE
+	aml 0.828571428571
+	cALL 0.875
+	CLL 0.933333333333
+	mds 0.880952380952
+	221
+	29
+	0.884
+- VO
+	aml 0.828571428571
+	cALL 0.833333333333
+	CLL 0.933333333333
+	mds 0.904761904762
+	220
+	30
+	0.88
+
+#one_versus_rest_approach("svm") 
+- LASSO
+	cALL 0.833333333333
+	CLL 0.833333333333
+	mds 0.738095238095
+	205
+	45
+	0.82
+- RFE
+	aml 0.728571428571
+	cALL 0.791666666667
+	CLL 0.844444444444
+	mds 0.809523809524
+	199
+	51
+	0.796
+- VO
+	aml 0.771428571429
+	cALL 0.791666666667
+	CLL 0.911111111111
+	mds 0.928571428571
+	213
+	37
+	0.852
+
+#one_versus_rest_approach("logistic_regression") 
+- LASSO
+	aml 0.842857142857
+	cALL 0.875
+	CLL 0.866666666667
+	mds 0.928571428571
+	218
+	32
+	0.872
+- RFE
+	aml 0.828571428571
+	cALL 0.875
+	CLL 0.955555555556
+	mds 0.857142857143
+	222
+	28
+	0.888
+- VO
+	aml 0.828571428571
+	cALL 0.833333333333
+	CLL 0.933333333333
+	mds 0.904761904762
+	220
+	30
+	0.88
+
+#softmax_approach() 
+- LASSO
+	aml 0.828571428571
+	cALL 0.833333333333
+	CLL 0.855555555556
+	mds 0.928571428571
+	214
+	36
+	0.856
+- RFE	
+	aml 0.771428571429
+	cALL 0.875
+	CLL 0.933333333333
+	mds 0.880952380952
+	217
+	33
+	0.868
+- VO	
+	aml 0.814285714286
+	cALL 0.833333333333
+	CLL 0.933333333333
+	mds 0.904761904762
+	219
+	31
+	0.876
+
+
+Quetsions??
+What are the features selected by all feature selection methods and do they make sense?
+EMID1 (Emilin And Multimerin Domain-Containing Protein 1)
+
+
+CFD (Complement Factor D (Adipsin))
+-role in humoral suppression of infectious agents
+-role for adipose tissue in immune system biology
+-In precursor T-cell lymphoblastic lymphoma/leukemia (pre-T LBL) mice with NHD13 over-expressed, cfd had 4.5 fold decrease.
+PAPER: Gene expression profiling of precursor T-cell lymphoblastic leukemia/lymphoma identifies oncogenic pathways that are potential therapeutic targets
+
+FLT3 (FMS-like tyrosine kinase-3)
+-a receptor tyrosine kinase that is important for the development of the hematopoietic and immune systems.
+-abnormality in acute myeloid leukemia, and FLT3 mutations may play a role in other hematologic malignancies as well.
+PAPER: FLT3: IT Does matter in leukemia
+
+FPGS (Folylpolyglutamate Synthase)
+- This enzyme has a central role in establishing and maintaining both cytosolic and mitochondrial folylpolyglutamate concentrations and, therefore, is essential for folate homeostasis and the survival of proliferating cells.
+- The FPGS activity was twofold lower in T-ALL and AML than in c/preB-ALL samples (P <. 01). FPGH activity was not different between c/preB-ALL and T-ALL, but threefold higher in AML (P <.001).
+PAPER: Role of folylpolyglutamate synthetase and folylpolyglutamate hydrolase in methotrexate accumulation and polyglutamylation in childhood leukemia.
+
+CCL23 (chemokine (C-C motif) ligand 23)
+- recent study has shown that CCL23 was over-expressed in bone marrow and peripheral blood cells from pediatric patients with acute myeloid leukemia (AML)
+-CCL23 alone did not inhibit the proliferation and differentiation of U937, while its use in combination with PMA may possess synergistic effect on inducting differentiation of U937 through the increase of receptor CCR1 expression, leukemia, the U937 cells, a leukemic cell strain
+PAPER: Effect of CCL23/myeloid progenitor inhibitory factor 1 (MPIF-1) on the proliferation, apoptosis and differentiation of U937 cells
+
+ITFG3 (Integrin alpha FG-GAP repeat containing 3)
+-nothing found
+
+Using the one that looks the best can we classify 18 subtypes?
+
+Would class imbalance kick in?
+
+
